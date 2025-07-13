@@ -50,9 +50,7 @@ export function Sidebar({ className }: SidebarProps) {
           {/* Logo */}
           <div className="flex h-16 items-center justify-center border-b border-sidebar-border">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-lg">W</span>
-              </div>
+              <img src="/logo.svg" alt="Web3 Portfolio Logo" className="h-6 w-6" />
               <span className="font-bold text-lg text-sidebar-foreground">Web3 Portfolio</span>
             </div>
           </div>
